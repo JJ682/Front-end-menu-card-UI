@@ -1,0 +1,37 @@
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #111827, #1f2937);
+  color: white;
+  padding: 25px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.menu-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-btn:hover {
+  background: #374151;
+  color: white;
+}
+
+.menu-btn.active {
+  background: linear-gradient(135deg, #f97316, #fb923c);
+  color: white;
+  font-weight: 500;
+}
